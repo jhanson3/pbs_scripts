@@ -35,7 +35,7 @@ module load R
 ### executable command with trailing &. Do NOT assign more resources than the node has.
 ### Each iteration below will consume memory and cpu. 
 
-cd ~mynetid/project/repo/midterm/hpc
+cd ~jhanson3/project/repo/midterm/hpc
 date
 Rscript data_setup.R
 date
