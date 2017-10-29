@@ -39,4 +39,48 @@ cd ~jhanson3/project/repo/midterm/hpc
 date
 Rscript data_setup.R
 date
+for i in sets/01/*; do #the dir of the data files
+    Rscript ebutterfly-sdm/scripts/run-sdm.R $i $i+output .; done #runs the script on each file
+date
+    
+: <<'END'
+for i in sets/02/*; do #the dir of the data files
+    Rscript run-sdm.R $i $i+output .; done #runs the script on each file
+    
+for i in sets/03/*; do #the dir of the data files
+    Rscript run-sdm.R $i $i+output .; done #runs the script on each file
+    
+for i in sets/04/*; do #the dir of the data files
+    Rscript run-sdm.R $i $i+output .; done #runs the script on each file
+    
+for i in sets/05/*; do #the dir of the data files
+    Rscript run-sdm.R $i $i+output .; done #runs the script on each file
+    
+for i in sets/06/*; do #the dir of the data files
+    Rscript run-sdm.R $i $i+output .; done #runs the script on each file
+    
+for i in sets/07/*; do #the dir of the data files
+    Rscript run-sdm.R $i $i+output .; done #runs the script on each file
+    
+for i in sets/08/*; do #the dir of the data files
+    Rscript run-sdm.R $i $i+output .; done #runs the script on each file
+
+for i in sets/09/*; do #the dir of the data files
+    Rscript run-sdm.R $i $i+output .; done #runs the script on each file
+    
+for i in sets/10/*; do #the dir of the data files
+    Rscript run-sdm.R $i $i+output .; done #runs the script on each file
+    
+for i in sets/11/*; do #the dir of the data files
+    Rscript run-sdm.R $i $i+output .; done #runs the script on each file
+    
+for i in sets/12/*; do #the dir of the data files
+    Rscript run-sdm.R $i $i+output .; done #runs the script on each file
+
+for i in sets/years_sets/*; do #the dir of the data files
+    Rscript run-sdm.R $i $i+output .; done #runs the script on each file
+END
+    
+
+
 
