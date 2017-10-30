@@ -1,6 +1,7 @@
 # R program to extract the necessary data from the Observations.csv
 #This program should return an SDM readable file
 
+install.packages("readr")
 library(readr)
 #Here we create the initial data frame from the csv containing everything in it
 #observations = read_csv("observations.csv")
